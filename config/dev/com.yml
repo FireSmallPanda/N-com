@@ -1,0 +1,6 @@
+##端口号(必须)
+PORT: 3000
+##是否允许跨域(必须)
+ALLOW_ORIGIN: true 
+##接口前缀(必须)
+NAME: /com-api

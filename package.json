@@ -1,0 +1,23 @@
+{
+  "name": "n-com",
+  "version": "1.0.0",
+  "description": "this is back ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app",
+    "dev-hot": "supervisor app"
+  },
+  "keywords": [
+    "node"
+  ],
+  "dependencies": {
+    "express": "^4.16.3",
+    "redis": "^2.8.0",
+    "yamljs": "^0.3.0",
+    "uuid": "^3.3.2",
+    "promise": "^8.0.2"
+  },
+  "author": "weihaoLing",
+  "license": "ISC"
+}

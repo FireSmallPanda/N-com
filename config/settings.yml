@@ -1,0 +1,2 @@
+## 使用的配置(文件夹名称默认为dev 或者 test)(必须)
+USE_CONFIG: dev
