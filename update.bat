@@ -1,1 +1,2 @@
-git clone -b master https://github.com/FireSmallPanda/N-com.git
+git checkout master
+git pull -v --progress "origin"
