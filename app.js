@@ -41,9 +41,7 @@ app.get(`${apiName}/testMysql`, goodsController.getGoods);
 
 
 
-console.log(`----------测试更新----------`)
-console.log(`----------当前服务启动端口为：${configs.PORT}----------`)
-console.log(`----------当前服务接口前缀为：${apiName}----------`)
+console.log(`----------默认为：http://localhost:${configs.PORT}${apiName}----------`)
 console.log(`----------当前服务启动环境为：${configs.env}----------`)
 
 // 监听未捕获的异常

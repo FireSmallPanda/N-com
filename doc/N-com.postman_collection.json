@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "4642b4bf-4c73-400a-b3d3-c8ace200506c",
+		"name": "N-com",
+		"description": "nodejs后台",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "主页",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{com}}",
+					"host": [
+						"{{com}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "F0001第一个接口",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{com}}/com-api",
+					"host": [
+						"{{com}}"
+					],
+					"path": [
+						"com-api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test001测试返回接口",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{com}}/com-api/test",
+					"host": [
+						"{{com}}"
+					],
+					"path": [
+						"com-api",
+						"test"
+					]
+				},
+				"description": "测试返回接口"
+			},
+			"response": []
+		},
+		{
+			"name": "Test002测试mysql返回接口",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{com}}/com-api/testMysql",
+					"host": [
+						"{{com}}"
+					],
+					"path": [
+						"com-api",
+						"testMysql"
+					]
+				},
+				"description": "测试mysql返回接口"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
