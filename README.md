@@ -22,7 +22,7 @@ npm run dev
 ### 相关日志
 [更新日志](https://github.com/FireSmallPanda/N-com/blob/master/doc/UPDATE_LOG_CN.md)
 ### 相关文档
-[相关sql文件](https://github.com/FireSmallPanda/N-com/blob/master/doc/test.sql)
+[相关sql文件](https://github.com/FireSmallPanda/N-com/blob/master/doc/test.sql)<br/>
 [PostMan接口文件](https://github.com/FireSmallPanda/N-com/blob/master/doc/N-com.postman_collection.json)
 ### 参考网站
 [Nodejs中文网](http://nodejs.cn)
